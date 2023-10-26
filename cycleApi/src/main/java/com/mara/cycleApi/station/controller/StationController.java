@@ -16,5 +16,6 @@ public class StationController {
     @GetMapping("/updateInfo")
     public void updateInfo(){
         apiService.getStation();
+
     }
 }
